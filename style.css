@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body
+{
+    margin: 0;
+    background: url(./assets/web_bg.jpg) no-repeat fixed;
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 70rlh;
+}
+.container-fluid{
+    background-image: linear-gradient(to right, #ecadff, #5b9fcc);
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    background-color:lightgreen;
+    display: flex;
+}
+.nav-logo{
+    background-image: url(../assets/logo.jpg);
+    width: 50px;
+    height: 45px;
+    margin-left: 1rem;
+}
+.nav-about {
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 2rem;
+ 
+}
+.nav-about a{
+    text-decoration: none;
+    color: black;
+}
+.nav-main {
+    height: 40px;
+    width: 50px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 70rem;
+}
+.login-button button{
+    height: 40px;
+    width: 95px;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: aquamarine;
+    border-radius: 20px;
+}
+
+.login-button button:hover{
+    background-color: rgb(10, 185, 147);
+    font-size: 1.2rem;
+    border: 2px solid white;
+    color: aliceblue;
+}  
+form{
+    position: absolute;
+    width: 30%;
+    height: 0.5%;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    min-width: 30rlh;
+}
+
+.main-cont{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-card{
+    height: 450px;
+    width: 800px;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+.head-cont{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.head-cont h1{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 64px;
+    margin: 0;
+}
+.marg-line{
+    margin-inline: 50px;
+}
+/* .marg-para{
+    
+} */
+
+.main-para p{
+    width: auto;
+    display: flex;
+    justify-content: center !important;
+    margin-inline: 50px;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.login-link{
+    min-width: 80lh;
+    left: 80%;
+}
